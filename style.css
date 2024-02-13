@@ -22,8 +22,13 @@ body > main .page-title {
 
 }
 
+body > main .content section {
+    flex: 1;
+}
+
 .content {
     display: flex;
+    padding: 1em;
 }
 
 table {
@@ -107,6 +112,7 @@ table thead tr th {
 
 .remove button {
     border: 0;
+    background: transparent;
 }
 
 .remove:hover {
