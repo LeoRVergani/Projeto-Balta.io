@@ -47,6 +47,14 @@ table thead tr th {
     color: #666;
 }
 
+table tbody tr td {
+    padding: 10px 0;
+}
+
+table tbody tr {
+    border-bottom: 3px solid #eee;
+}
+
 .product {
     display: flex;
     align-items: center;
@@ -161,4 +169,22 @@ aside .box footer{
     font-size: 18px;
     display: flex;
     justify-content: space-between;
+}
+aside button {
+    border: 0;
+    padding: 15px 0;
+    color: white;
+    background: #ff3a2f;
+    display: block;
+    width: 100%;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-size: 16px;
+    margin-top: 1em;
+
+}
+
+.finalizar:hover {
+    background: #0ce26d;
+    cursor: pointer;
 }
